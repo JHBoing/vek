@@ -1,0 +1,33 @@
+.simulador {
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+
+    &__box {
+        margin: 0 15rem;
+        padding: 5rem 5rem; 
+        height: 105rem;
+        background-image: linear-gradient(
+            rgba($color-white, .85),
+            rgba($color-white, .85));
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 2rem rgba($color-black, .1);
+    
+    
+        &__form {
+            width: 100%;
+            padding: 6rem;
+        }
+    }
+
+    &__aprovacao-box {
+        display: none;
+        margin: 5rem 15rem 0 15rem;
+        padding: 5rem 5rem; 
+        height: 50rem;
+        background-image: linear-gradient(
+            rgba($color-white, .85),
+            rgba($color-white, .85));
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 2rem rgba($color-black, .1);
+    }
+}

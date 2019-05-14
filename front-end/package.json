@@ -1,0 +1,17 @@
+{
+  "name": "Boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate to starting projects",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w",
+    "transpile:js": "babel index.js --out-file script.js --watch"
+  },
+  "author": "Joao",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "node-sass": "^4.10.0"
+  }
+}

@@ -1,0 +1,18 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: $default-font-size;
+}
+
+.heading-secondary {
+    font-size: 3rem;
+    font-weight: 700;
+    display: inline-block;
+    text-transform: uppercase;
+
+    &--aprovados {
+        color: $color-white;
+        margin-top: 5rem;
+    }
+}
+
