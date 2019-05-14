@@ -1,6 +1,6 @@
 # Avaliação VEK
 
- A simple boilerplate to jumpstart the development of simple static sites.
+ Avaliação para VEK
 
 ## Instalação
 
